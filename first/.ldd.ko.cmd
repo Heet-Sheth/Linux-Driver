@@ -1,0 +1,1 @@
+savedcmd_/home/ubuntu/ldd/first/ldd.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/ldd/first/ldd.ko /home/ubuntu/ldd/first/ldd.o /home/ubuntu/ldd/first/ldd.mod.o
