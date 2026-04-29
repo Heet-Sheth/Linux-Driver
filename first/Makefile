@@ -8,5 +8,5 @@ clean:	#target, only a single tab before actual commmand
 
 
 #use Makefile, or filename.mk, case sensitive
-#use as make or make filename.mk
+#use as make or make -f filename.mk
 #use target (default 1st 1)
