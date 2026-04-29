@@ -1,7 +1,12 @@
-obj-m += ldd.o
+obj-m += ldd.o	#string variable (system provided), to be appended
 
-all:
-	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+all: ldd.c	#target and depedency, command bellow
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) module
 
-clean:
+clean:	#target
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
+
+
+#use Makefile, or filename.mk, case sensitive
+#use as make or make filename.mk
+#use target (default 1st 1)
