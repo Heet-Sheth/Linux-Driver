@@ -37,6 +37,10 @@ static const char ____versions[]
 __used __section("__versions") =
 	"\x10\x00\x00\x00\x7e\x3a\x2c\x12"
 	"_printk\0"
+	"\x14\x00\x00\x00\xe4\xf8\xc4\x85"
+	"proc_create\0"
+	"\x14\x00\x00\x00\x03\xb5\x53\xdb"
+	"proc_remove\0"
 	"\x18\x00\x00\x00\x2a\x1c\x61\x3f"
 	"module_layout\0\0\0"
 	"\x00\x00\x00\x00\x00\x00\x00\x00";
@@ -44,4 +48,4 @@ __used __section("__versions") =
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "217A60FAA48241295FAE6F1");
+MODULE_INFO(srcversion, "60DC46B32B89E2E7A02093A");
