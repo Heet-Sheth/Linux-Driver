@@ -1,7 +1,7 @@
 obj-m += ldd.o	#string variable (system provided), to be appended
 
 all: ldd.c	#target and depedency, command bellow
-	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) module
+	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
 
 clean:	#target, only a single tab before actual commmand
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
