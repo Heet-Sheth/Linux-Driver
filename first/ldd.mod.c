@@ -41,6 +41,16 @@ __used __section("__versions") =
 	"proc_create\0"
 	"\x14\x00\x00\x00\x03\xb5\x53\xdb"
 	"proc_remove\0"
+	"\x1c\x00\x00\x00\x48\x9f\xdb\x88"
+	"__check_object_size\0"
+	"\x1c\x00\x00\x00\x54\xfc\xbb\x6c"
+	"__arch_copy_to_user\0"
+	"\x1c\x00\x00\x00\xef\x6d\x5c\xa6"
+	"alt_cb_patch_nops\0\0\0"
+	"\x24\x00\x00\x00\x52\x3f\x0a\x4b"
+	"gic_nonsecure_priorities\0\0\0\0"
+	"\x1c\x00\x00\x00\xcb\xf6\xfd\xf0"
+	"__stack_chk_fail\0\0\0\0"
 	"\x18\x00\x00\x00\x2a\x1c\x61\x3f"
 	"module_layout\0\0\0"
 	"\x00\x00\x00\x00\x00\x00\x00\x00";
@@ -48,4 +58,4 @@ __used __section("__versions") =
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "3FA45C5CFDA7FDC68D61D93");
+MODULE_INFO(srcversion, "3D5B8A3340B7D47A83EF2D5");
